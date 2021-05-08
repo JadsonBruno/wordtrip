@@ -1,0 +1,19 @@
+:root {
+    ::-webkit-scrollbar
+    {
+        width: 4px !important;
+        height: 4px !important;
+        cursor: pointer;
+    }
+  
+    ::-webkit-scrollbar-thumb
+    {
+        background-color: #47585B !important;
+        border-radius: 8px;
+    }
+  
+    ::-webkit-scrollbar-track
+    {
+        background: transparent !important;
+    }
+}

@@ -44,8 +44,6 @@ export default function Home() {
     {
       const {data} = await api.get<IContinent[]>('/');
 
-      console.log(data);
-
       setContinents(data);
     }
 

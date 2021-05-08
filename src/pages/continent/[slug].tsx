@@ -37,8 +37,8 @@ export default function Continent ({continent}: IContinentProps) {
         >
             <Header shouldShowBackButton={true} />
             <ContinentBanner
-                imageSrc={continent.resumeImage}
-                title={continent.continent}
+                imageSrc={continent?.resumeImage}
+                title={continent?.continent}
             />
             <Flex
                 maxW="82.5rem"
@@ -58,7 +58,7 @@ export default function Continent ({continent}: IContinentProps) {
                       width="100%"
                       margin={["1.5rem 1rem","1.5rem 1.2rem"]}
                     >
-                        {continent.text}
+                        {continent?.text}
                     </Text>
                     <Flex
                         align="center"
@@ -77,7 +77,7 @@ export default function Continent ({continent}: IContinentProps) {
                                 fontStyle="normal"
                                 lineHeight="4.5rem"
                             >
-                                {continent.countries}
+                                {continent?.countries}
                             </Text>
                             <Text
                                 fontWeight="600"
@@ -99,7 +99,7 @@ export default function Continent ({continent}: IContinentProps) {
                                 fontStyle="normal"
                                 lineHeight="4.5rem"
                             >
-                                {continent.languages}
+                                {continent?.languages}
                             </Text>
                             <Text
                                 fontWeight="600"
@@ -121,7 +121,7 @@ export default function Continent ({continent}: IContinentProps) {
                                 fontStyle="normal"
                                 lineHeight="4.5rem"
                             >
-                                {continent.citiesNumber}
+                                {continent?.citiesNumber}
                             </Text>
                             <Text
                                 fontWeight="600"
